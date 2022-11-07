@@ -23,10 +23,10 @@ const Auth = () => {
   }, [token]);
 
   return (
-    <div className="absolute left-0 right-0 top-0 bottom-0 overflow-hidden bg-zinc-100">
+    <div className="absolute left-0 right-0 top-0 bottom-0 overflow-hidden bg-zinc-100 px-4">
       <div className="flex justify-center items-center h-full">
         <div className="flex flex-col items-center">
-          <div className="capitalize text-gray-600 text-2xl">
+          <div className="capitalize text-gray-600 text-2xl text-center">
             Login with <span className="font-bold ">Jotform</span> to easily
             create dynamic urls
           </div>
